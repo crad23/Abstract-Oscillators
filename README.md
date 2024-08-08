@@ -38,7 +38,7 @@ Team Member 1:
 
 Team Member 2:
  - Full Name: Cristina Radian
- - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx):
+ - Womanium Program Enrollment ID: WQ24-dGX88XTBPxBKLvW
 
 
 Team Member 3:
