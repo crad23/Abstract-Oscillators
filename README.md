@@ -12,7 +12,7 @@
 
 ## Project Submission:
 
-### Hamiltonian Simulation: Simulating Coupled Harmonic Oscillators
+### ***Hamiltonian Simulation: Simulating Coupled Harmonic Oscillators***
 
 In recent years, Quantum Computing has made remarkable strides, with increasingly powerful quantum computers being developed annually. Today, machines with hundreds of qubits 
 can execute quantum algorithms with circuit depths reaching into the thousands, all while preserving a significant signal. However, a key challenge within the quantum computing 
@@ -94,9 +94,9 @@ Resources estimation of the problem in step 2 in terms of circuit depth, circuit
 
 **Final Deliverables:**
 
-● Slides that summarize the work
-● **The .qmod and .qprog files for each step.** This can be found in the folder named [QMOD Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QMOD%20Files) and [QPROG Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QPROG%20Files) respectively. 
-● The Python Jupyter notebooks with elaborate details for each step 
+- Slides that summarize the work. This can be accessed [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Womanium-NovelQAlgs-Abstract-Oscillators.pdf)
+- **The .qmod and .qprog files for each step.** This can be found in the folder named [QMOD Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QMOD%20Files) and [QPROG Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QPROG%20Files) respectively. 
+- The Python Jupyter notebooks with elaborate details for each step. This can be found [here](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/Notebooks).
 
 
 ### Contributing
