@@ -74,7 +74,7 @@ The implementation is fairly scalable, and it is straightforward to extend it to
 
 2) **Enlarging the problem for a more complicated scenario**
 
-In this step, an actual problem from the paper has been implemented. We attempt to solve Problem 2 of estimating kinetic energy of system of Coupled Oscillators. Our codes are general, and for demonstration we simulate for $8$ masses. Please note that the simulation time on simulators is long for $N=2^3=8$. Refer [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/KineticEnergyEstimationProblem2.ipynb) for Kinetic energy estimation for $N=8$ system. The results are benchmarked using classical numerical methods. 
+In this step, an actual problem from the paper has been implemented. We attempt to solve Problem 2 of estimating kinetic energy of system of Coupled Oscillators. Our codes are general, and for demonstration we simulate for $8$ masses. Please note that the simulation time on simulators is long for $N=2^3=8$. Refer [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/KineticEnergyEstimationProblem2.ipynb) for Kinetic energy estimation for $N=8$ system. The results are benchmarked using classical numerical methods. 
 
 A sneak peak into our simulator based results for this problem. 
 
@@ -82,7 +82,7 @@ A sneak peak into our simulator based results for this problem.
 <img src="https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/main/Figures/Kinetic%20Energy%20Comparision.PNG" alt="Description" width="255">
 </p>
 
-We have also used advanced methods of Hamiltonian simulation through block-encoding based methods. We tried Qubitization methodology (which work very well for our toy cases) which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/ToyQubitization.ipynb), as well as the QSVT methodology for Hamiltonian simulation that can be found [here](https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/merge-private-repo/Notebooks/QSVTapproach.ipynb). 
+We have also used advanced methods of Hamiltonian simulation through block-encoding based methods. We tried Qubitization methodology (which work very well for our toy cases) which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/ToyQubitization.ipynb), as well as the QSVT methodology for Hamiltonian simulation that can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/QSVTapproach.ipynb). 
 
 The execution on real hardware has been done for Trotter based methodology for resource estimation and hardware comparision and Qubitization based methodology for simple cases (to avoid lengthy running times), which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/OptimizationKineticEnergyEstimation.ipynb) and [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/HardwareSimulationwithQubitization.ipynb).
 
