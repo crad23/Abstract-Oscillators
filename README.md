@@ -1,30 +1,18 @@
 # Development-of-Novel-Quantum-Algorithms
-Womanium Quantum+AI 2024 Projects
-
-**Please review the participation guidelines [here](https://github.com/womanium-quantum/Quantum-AI-2024) before starting the project.**
-
-_**Do NOT delete/ edit the format of this read.me file.**_
-
-_**Include all necessary information only as per the given format.**_
+**Womanium Quantum+AI 2024 Projects**
 
 ## Project Information:
 
 ### Team Size:
-  - Maximum team size = 3
-  - While individual participation is also welcome, we highly recommend team participation :
-
-### Eligibility:
-  - All nationalities, genders, and age groups are welcome to participate in the projects.
-  - All team participants must be enrolled in Womanium Quantum+AI 2024.
-  - Everyone is eligible to participate in this project and win Womanium grants.
-  - All successful project submissions earn the Womanium Project Certificate.
-  - Best participants win Womanium QSL fellowships with Classiq. Please review the eligibility criteria for QSL fellowships in the project description below.
+  - Team size = 3
 
 ### Project Description:
   - Click [here](https://drive.google.com/file/d/1PGNUShboB4ik_JHZGcIPTh3KYi-aajzp/view?usp=sharing) to view the project description.
 
 
 ## Project Submission:
+
+### Hamiltonian Simulation: Simulating Coupled Harmonic Oscillators
 
 In recent years, Quantum Computing has made remarkable strides, with increasingly powerful quantum computers being developed annually. Today, machines with hundreds of qubits 
 can execute quantum algorithms with circuit depths reaching into the thousands, all while preserving a significant signal. However, a key challenge within the quantum computing 
@@ -38,15 +26,18 @@ hardware and software capabilities.
 The objective of our [Womanium Quantum+AI 2024](https://womanium.org/Quantum/AI) Final Project is to implement, optimize, and evaluate the simulation of classical coupled harmonic oscillators as detailed in the study. You can access the original paper [here](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.13.041041).
 
 
-### Installation and Usage
+### Installation and Usage Tips
 
-Please fork the repository and clone the fork to your local device. Certain files use other files which has helper functions. 
+Please fork the repository and clone the fork to your local device. Certain files use modules that contain helper functions. 
 
 The project uses the following packages: classiq (0.43.3), scipy, numpy, matplotlib, tqdm, qutip (optional).
 
 For installation run the following on codecell of jupyter notebook
 
 `!pip install <package-name>` 
+
+Please input your ibm `access_token` in the code files that attempts to run Quantum Programs on real IBM hardware. 
+In case you encounter inavlid_format error, rerun the code cells again.
 
 ## Team Information:
 Team Member 1:
@@ -93,11 +84,12 @@ A sneak peak into our simulator based results for this problem.
 
 We have also used advanced methods of Hamiltonian simulation through block-encoding based methods. We tried Qubitization methodology (which work very well for our toy cases) which can be found [here](https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/main/ToyQubitization.ipynb), as well as the QSVT methodology for Hamiltonian simulation that can be found [here](https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/main/QSVTapproach.ipynb). 
 
-The execution on real hardware has been done for Qubitization based methodology for a simple case, which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/HardwareSimulationwithQubitization.ipynb).
+The execution on real hardware has been done for Trotter based methodology and Qubitization based methodology for simple cases (to avoid lengthy running times), which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimizationKineticEnergyEstimation.ipynb) and [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/HardwareSimulationwithQubitization.ipynb). 
 
-Resources estimation in terms of circuit depth, circuit width and number of 2-qubit gates should be made and compared across several hardwares has been done. 
-
+ 
 3) **Optimization of the solution found in step 1 for the most adequate hardwares**
+
+Resources estimation in terms of circuit depth, circuit width and number of 2-qubit gates has been made and compared across several IBM based hardwares. We have tried to optimize our quantum programs for IBM based hardware executions, for both Qubitization [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimalQubitizationKineticEnergyEstimation.ipynb) and Trotter methods [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimizationKineticEnergyEstimation.ipynb). 
 
 
 **Final Deliverables:**
@@ -105,7 +97,6 @@ Resources estimation in terms of circuit depth, circuit width and number of 2-qu
 ● Slides that summarize the work
 ● **The .qmod and .qprog files for each step.** This can be found in the folder named [QMOD Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QMOD%20Files) and [QPROG Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QPROG%20Files) respectively. 
 ● The Python Jupyter notebooks with elaborate details for each step 
-
 
 
 ### Contributing
