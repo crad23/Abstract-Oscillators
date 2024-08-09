@@ -128,4 +128,4 @@ This project is licensed under the MIT License - see the [LICENSE](MIT-LICENSE.t
 
 ## Project Presentation Deck:
 
-Please find our Project presentation file [here] (https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Womanium-NovelQAlgs-Abstract-Oscillators.pdf)
+Please find our Project presentation file [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Womanium-NovelQAlgs-Abstract-Oscillators.pdf)
