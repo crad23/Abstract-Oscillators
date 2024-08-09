@@ -126,7 +126,7 @@ This project is licensed under the MIT License - see the [LICENSE](MIT-LICENSE.t
 - This project uses [Classiq Github](https://github.com/Classiq/classiq-library/tree/main) by [Classiq](https://www.classiq.io/).
 
 
-## Project Presentation Deck:
+## Project Presentation Deck: [link here](Womanium-NovelQAlgs-Abstract-Oscillators.pdf)
 
 
 
