@@ -84,12 +84,12 @@ A sneak peak into our simulator based results for this problem.
 
 We have also used advanced methods of Hamiltonian simulation through block-encoding based methods. We tried Qubitization methodology (which work very well for our toy cases) which can be found [here](https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/main/ToyQubitization.ipynb), as well as the QSVT methodology for Hamiltonian simulation that can be found [here](https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/main/QSVTapproach.ipynb). 
 
-The execution on real hardware has been done for Trotter based methodology and Qubitization based methodology for simple cases (to avoid lengthy running times), which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimizationKineticEnergyEstimation.ipynb) and [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/HardwareSimulationwithQubitization.ipynb). 
+The execution on real hardware has been done for Trotter based methodology for resource estimation and hardware comparision and Qubitization based methodology for simple cases (to avoid lengthy running times), which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimizationKineticEnergyEstimation.ipynb) and [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/HardwareSimulationwithQubitization.ipynb).
 
  
 3) **Optimization of the solution found in step 1 for the most adequate hardwares**
 
-Resources estimation in terms of circuit depth, circuit width and number of 2-qubit gates has been made and compared across several IBM based hardwares. We have tried to optimize our quantum programs for IBM based hardware executions, for both Qubitization [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimalQubitizationKineticEnergyEstimation.ipynb) and Trotter methods [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimizationKineticEnergyEstimation.ipynb). 
+Resources estimation of the problem in step 2 in terms of circuit depth, circuit width and number of 2-qubit gates has been made and compared across several IBM based hardwares. We have tried to optimize our quantum programs for IBM based hardware executions, for both Qubitization [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimalQubitizationKineticEnergyEstimation.ipynb) and Trotter methods [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimizationKineticEnergyEstimation.ipynb). 
 
 
 **Final Deliverables:**
