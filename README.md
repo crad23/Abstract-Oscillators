@@ -12,7 +12,7 @@
 
 ## Project Submission:
 
-### Hamiltonian Simulation: Simulating Coupled Harmonic Oscillators
+### ***Hamiltonian Simulation: Simulating Coupled Harmonic Oscillators***
 
 In recent years, Quantum Computing has made remarkable strides, with increasingly powerful quantum computers being developed annually. Today, machines with hundreds of qubits 
 can execute quantum algorithms with circuit depths reaching into the thousands, all while preserving a significant signal. However, a key challenge within the quantum computing 
@@ -68,13 +68,13 @@ Team Member 3:
 <img src="https://github.com/user-attachments/assets/0e59441e-b1e3-4f41-8410-d5be388b8bde" alt="Description" width="255">
 </p>
 
-Refer [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/ToySuzuki.ipynb) and [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/ToyExponentiation.ipynb) for two different simulations of 2 simplest cases (toy problems). Benchmarking using classical numerical methods has also been done. 
+Refer [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/ToySuzuki.ipynb) and [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/ToyExponentiation.ipynb) for two different simulations of 2 simplest cases (toy problems). Benchmarking using classical numerical methods has also been done. 
 
 The implementation is fairly scalable, and it is straightforward to extend it to a more complicated scenario.
 
 2) **Enlarging the problem for a more complicated scenario**
 
-In this step, an actual problem from the paper has been implemented. We attempt to solve Problem 2 of estimating kinetic energy of system of Coupled Oscillators. Our codes are general, and for demonstration we simulate for $8$ masses. Please note that the simulation time on simulators is long for $N=2^3=8$. Refer [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/KineticEnergyEstimationProblem2.ipynb) for Kinetic energy estimation for $N=8$ system. The results are benchmarked using classical numerical methods. 
+In this step, an actual problem from the paper has been implemented. We attempt to solve Problem 2 of estimating kinetic energy of system of Coupled Oscillators. Our codes are general, and for demonstration we simulate for $8$ masses. Please note that the simulation time on simulators is long for $N=2^3=8$. Refer [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/KineticEnergyEstimationProblem2.ipynb) for Kinetic energy estimation for $N=8$ system. The results are benchmarked using classical numerical methods. 
 
 A sneak peak into our simulator based results for this problem. 
 
@@ -82,21 +82,21 @@ A sneak peak into our simulator based results for this problem.
 <img src="https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/main/Figures/Kinetic%20Energy%20Comparision.PNG" alt="Description" width="255">
 </p>
 
-We have also used advanced methods of Hamiltonian simulation through block-encoding based methods. We tried Qubitization methodology (which work very well for our toy cases) which can be found [here](https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/main/ToyQubitization.ipynb), as well as the QSVT methodology for Hamiltonian simulation that can be found [here](https://github.com/virajd98/Abstract-Oscillators-Pvt-/blob/main/QSVTapproach.ipynb). 
+We have also used advanced methods of Hamiltonian simulation through block-encoding based methods. We tried Qubitization methodology (which work very well for our toy cases) which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/ToyQubitization.ipynb), as well as the QSVT methodology for Hamiltonian simulation that can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/QSVTapproach.ipynb). 
 
-The execution on real hardware has been done for Trotter based methodology for resource estimation and hardware comparision and Qubitization based methodology for simple cases (to avoid lengthy running times), which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimizationKineticEnergyEstimation.ipynb) and [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/HardwareSimulationwithQubitization.ipynb).
+The execution on real hardware has been done for Trotter based methodology for resource estimation and hardware comparision and Qubitization based methodology for simple cases (to avoid lengthy running times), which can be found [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/OptimizationKineticEnergyEstimation.ipynb) and [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/HardwareSimulationwithQubitization.ipynb).
 
  
 3) **Optimization of the solution found in step 1 for the most adequate hardwares**
 
-Resources estimation of the problem in step 2 in terms of circuit depth, circuit width and number of 2-qubit gates has been made and compared across several IBM based hardwares. We have tried to optimize our quantum programs for IBM based hardware executions, for both Qubitization [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimalQubitizationKineticEnergyEstimation.ipynb) and Trotter methods [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/OptimizationKineticEnergyEstimation.ipynb). 
+Resources estimation of the problem in step 2 in terms of circuit depth, circuit width and number of 2-qubit gates has been made and compared across several IBM based hardwares. We have tried to optimize our quantum programs for IBM based hardware executions, for both Qubitization [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/OptimalQubitizationKineticEnergyEstimation.ipynb) and Trotter methods [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Notebooks/OptimizationKineticEnergyEstimation.ipynb). 
 
 
 **Final Deliverables:**
 
-● Slides that summarize the work
-● **The .qmod and .qprog files for each step.** This can be found in the folder named [QMOD Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QMOD%20Files) and [QPROG Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QPROG%20Files) respectively. 
-● The Python Jupyter notebooks with elaborate details for each step 
+- Slides that summarize the work. This can be accessed [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Womanium-NovelQAlgs-Abstract-Oscillators.pdf)
+- **The .qmod and .qprog files for each step.** This can be found in the folder named [QMOD Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QMOD%20Files) and [QPROG Files](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/QPROG%20Files) respectively. 
+- The Python Jupyter notebooks with elaborate details for each step. This can be found [here](https://github.com/virajd98/Abstract-Oscillators/tree/merge-private-repo/Notebooks).
 
 
 ### Contributing
@@ -128,6 +128,4 @@ This project is licensed under the MIT License - see the [LICENSE](MIT-LICENSE.t
 
 ## Project Presentation Deck: [link here](Womanium-NovelQAlgs-Abstract-Oscillators.pdf)
 
-
-
-
+Please find our Project presentation file [here](https://github.com/virajd98/Abstract-Oscillators/blob/merge-private-repo/Womanium-NovelQAlgs-Abstract-Oscillators.pdf)
